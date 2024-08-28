@@ -1,0 +1,27 @@
+{
+  "name": "mediquery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hyun",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/autoload": "^5.10.0",
+    "@fastify/cors": "^9.0.1",
+    "app-root-path": "^3.1.0",
+    "dayjs": "^1.11.11",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.0",
+    "mongodb": "^6.7.0",
+    "winston": "^3.13.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
