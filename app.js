@@ -1,6 +1,6 @@
 global.appRoot = require("app-root-path");
 
-const TAG = "[Mediquery] ";
+const TAG = "[ServerState] ";
 
 const logger = require(appRoot + "/lib/winston");
 
